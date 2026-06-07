@@ -1,7 +1,8 @@
 #include <iostream>
+using namespace std;
 
-int main()
+auto main() -> int
 {
-    std::cout << "Sandbox ready for C++23 experiments.\n";
+    cout << "Sandbox ready for C++23 experiments.\n";
     return 0;
 }

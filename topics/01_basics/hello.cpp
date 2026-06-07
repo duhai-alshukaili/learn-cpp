@@ -1,7 +1,9 @@
-#include <iostream>
+#include <print>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello from the C++23 learning project.\n";
+auto main() -> int {
+    
+    println("Welcome to C++23");
+
     return 0;
 }
