@@ -1,0 +1,10 @@
+build/
+.cache/
+compile_commands.json
+
+# Common editor and OS noise.
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
