@@ -1,5 +1,5 @@
-function(add_learning_example target_name source_file)
-    add_executable(${target_name} ${source_file})
+function(add_learning_example target_name)
+    add_executable(${target_name} ${ARGN})
 
     target_compile_features(${target_name} PRIVATE cxx_std_23)
 
